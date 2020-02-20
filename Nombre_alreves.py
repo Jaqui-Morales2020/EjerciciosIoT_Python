@@ -1,0 +1,7 @@
+nombre = input( "Dime tu nombre: " )
+print ( "Sus dos últimas letras son: ", end="" )
+print ( nombre[-2:] )
+print ( "Y a partir de la tercera: ", end="" )
+print ( nombre[2:] )
+print ( "Al revés sería: ", end="" )
+print ( nombre[::-1] )
